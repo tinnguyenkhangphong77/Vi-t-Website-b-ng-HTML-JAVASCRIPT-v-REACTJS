@@ -1,0 +1,18 @@
+@import "../App.scss";
+
+.list-icon-item {
+  cursor: pointer;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 10px;
+}
+
+// .list-icon-item:hover {
+// scale: 90%;
+// }
+
+.active {
+  border: solid $text-color 2px;
+  border-radius: 20px;
+  background-color: #111e48;
+}

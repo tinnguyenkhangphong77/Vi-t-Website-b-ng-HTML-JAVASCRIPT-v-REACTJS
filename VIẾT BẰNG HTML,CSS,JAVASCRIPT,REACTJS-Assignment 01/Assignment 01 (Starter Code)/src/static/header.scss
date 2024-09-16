@@ -1,0 +1,33 @@
+@import "../App.scss";
+
+.header {
+  position: relative;
+
+  h1 {
+    margin-bottom: 17px;
+  }
+
+  .description {
+    margin-bottom: 30px;
+  }
+
+  .header-btn {
+    cursor: pointer;
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    background-color: $secondary-color;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .datePicker {
+    position: absolute;
+    z-index: 1;
+    bottom: -386px;
+    left: 60px;
+    // bottom: -10px;
+  }
+}

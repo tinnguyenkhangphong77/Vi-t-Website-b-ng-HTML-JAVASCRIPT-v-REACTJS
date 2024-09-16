@@ -1,0 +1,48 @@
+/* TIMELINE */
+.section-title h2 {
+  color: #0d6efd;
+}
+
+/* Tạo border ngay dưới các thẻ h2 */
+.border-general > h2 {
+  border-bottom: 1px solid #ced4da;
+}
+
+.bi-flag {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.bi-person-fill {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* style lại màu và kích thước cho Icons ở Timeline */
+.bi-1-circle-fill,
+.bi-2-circle-fill,
+.bi-3-circle-fill,
+.bi-4-circle-fill,
+.bi-5-circle-fill,
+.bi-6-circle-fill,
+.bi-7-circle-fill {
+  color: #228be6;
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-digital h6 {
+  font-weight: 700;
+}
+
+/* Tạo border cho từng phần ở phần Timeline  */
+.icon-digital p {
+  font-size: 0.9rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dotted #ced4da;
+}
+
+.border-goals {
+  border-bottom: 1px solid #f1f3f5;
+}

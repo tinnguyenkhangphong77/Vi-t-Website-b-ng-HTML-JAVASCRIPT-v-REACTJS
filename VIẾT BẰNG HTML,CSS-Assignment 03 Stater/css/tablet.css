@@ -1,0 +1,29 @@
+/* Medium devices*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  header {
+    position: relative;
+  }
+  html {
+    font-size: 85%;
+  }
+  /* .nav-bar .avatar {
+    height: 0;
+  } */
+
+  .nav-bar .avatar .avatar-img {
+    display: none;
+  }
+
+  .certificate-content p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+  }
+  .certificate-content p strong {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+  .year-fill {
+    margin-right: 0 4px;
+  }
+}

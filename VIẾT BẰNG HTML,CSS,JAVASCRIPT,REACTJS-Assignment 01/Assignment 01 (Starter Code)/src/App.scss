@@ -1,0 +1,60 @@
+$primary-color: #192655;
+$secondary-color: #3876bf;
+$accent-color: #e1aa74;
+$text-color: #fefbf6;
+
+.Main-Header,
+.Main-Article,
+.Main-Section,
+.Main-Footer {
+  padding: 10px 300px;
+  color: $text-color;
+  letter-spacing: -0.4px;
+  margin-bottom: 40px;
+}
+
+.Main-Header,
+.Main-Section {
+  background-color: $primary-color;
+}
+
+.Main-Footer {
+  margin-top: -20px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  border-bottom: $primary-color solid 8px;
+}
+
+.flex,
+.flex-column {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.city-card,
+.Type-card,
+.hotel-list,
+.footer {
+  justify-content: space-between;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.search {
+  grid-template-columns: 27% 73%;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 10px 270px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.grid {
+  display: grid;
+}

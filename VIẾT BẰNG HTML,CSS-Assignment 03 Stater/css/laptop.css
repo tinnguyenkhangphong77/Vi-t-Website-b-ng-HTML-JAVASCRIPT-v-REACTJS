@@ -1,0 +1,24 @@
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+    position: relative;
+  }
+
+  .certificate-content p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+  }
+  .certificate-content p strong {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+  .year {
+    margin: 0;
+    padding: 0 0.6em;
+  }
+
+  .empty {
+    display: none;
+  }
+}
